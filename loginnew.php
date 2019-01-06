@@ -1,6 +1,6 @@
 <?php
     session_start();
-   define('DB_SERVER', '52.14.119.202');
+   define('DB_SERVER', '172.31.37.207');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', 'myproject');
    define('DB_DATABASE', 'register');

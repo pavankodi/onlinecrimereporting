@@ -5,7 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
     <script>
-var k=['type1','type2','type3','type4','type5','type6','type7','type8'];
+var k=['cybercrime','murder','rape','robbery','eveteasing','assualt','harrasment','other'];
         var i=1;
 function f1(){
     i=0;
@@ -85,13 +85,13 @@ function showPosition(position) {
         <div >
         <ul class="box-grid">
             <li><button onclick="f1()">cybercrime</button></li>
-            <li><button onclick="f2()">cybercrime</button></li>
-            <li><button onclick="f3()">cybercrime</button></li>
-            <li><button onclick="f4()">cybercrime</button></li>
-            <li><button onclick="f5()">cybercrime</button></li>
-            <li><button onclick="f6()">cybercrime</button></li>
-            <li><button onclick="f7()">cybercrime</button></li>
-            <li><button onclick="f8()">cybercrime</button></li>    
+            <li><button onclick="f2()">murder</button></li>
+            <li><button onclick="f3()">rape</button></li>
+            <li><button onclick="f4()">robbery</button></li>
+            <li><button onclick="f5()">eveteasing</button></li>
+            <li><button onclick="f6()">assualt</button></li>
+            <li><button onclick="f7()">harrasment</button></li>
+            <li><button onclick="f8()">other</button></li>    
         </ul>
         </div>
         <footer>

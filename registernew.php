@@ -1,6 +1,6 @@
  <?php
 session_start();
-$servername = "52.14.119.202";
+$servername = "172.31.37.207";
 $username = "root";
 $password = "myproject";
 $dbname = "register";
