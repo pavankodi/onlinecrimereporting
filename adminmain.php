@@ -26,11 +26,11 @@ tr:nth-child(even) {
     <?php
 session_start();
  
-$servername = "172.31.37.207";
+$servername = "172.31.30.220";
  
 $username = "root";
  
-$password = "myproject";
+$password = "mykeypair";
  
 $dbname = "register";
  if($_SESSION["name"]==NULL){

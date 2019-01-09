@@ -2,9 +2,9 @@
 $lat = $_REQUEST["q"];
 $long= $_REQUEST["p"];
 $type= $_REQUEST["r"];
-$servername = "172.31.37.207";
+$servername = "172.31.30.220";
 $username = "root";
-$password = "myproject";
+$password = "mykeypair";
 $dbname = "register";
 $station_loc = array
   (

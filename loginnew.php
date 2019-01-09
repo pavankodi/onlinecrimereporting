@@ -1,8 +1,8 @@
 <?php
     session_start();
-   define('DB_SERVER', '172.31.37.207');
+   define('DB_SERVER', '172.31.30.220');
    define('DB_USERNAME', 'root');
-   define('DB_PASSWORD', 'myproject');
+   define('DB_PASSWORD', 'mykeypair');
    define('DB_DATABASE', 'register');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
    if(isset($_POST["submit"])) {
